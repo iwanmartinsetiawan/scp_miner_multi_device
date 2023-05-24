@@ -1,7 +1,9 @@
 # scp_miner_multi_device
 
 Sebelum menjalankan script, perlu install sshpass terlebih dahulu dengan command :
+```bash
 sudo apt install sshpass
+```
 
 Kemudian jalankan command berikut :
 ```bash
