@@ -4,9 +4,15 @@ Sebelum menjalankan script, perlu install sshpass terlebih dahulu dengan command
 sudo apt install sshpass
 
 Kemudian jalankan command berikut :
+```bash
 git clone https://github.com/iwanmartinsetiawan/scp_miner_multi_device.git
+```
+```bash
 cd scp_miner_multi_device
+```
+```bash
 nano scp_miner.sh
+```
 
 Ganti Pass12345 dengan password ssh device minernya.
 Dengan asumsi semua passwordnya sama.
@@ -28,4 +34,6 @@ CTRL + X
 tekan Y, terus ENTER 
 
 Kemudian jalankan scriptnya menggunakan command
+```bash
 bash scp_miner.sh
+```
